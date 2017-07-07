@@ -1,0 +1,13 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="JPA-Test:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/JPA_Test_war_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="JPA-Test/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="JPA-Test" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
