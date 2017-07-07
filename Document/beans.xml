@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean id="docu" class="de.kernpunkt.document.model.Document">
+
+        <property name="type">
+            <bean  class="de.kernpunkt.document.model.Type">
+                <property name="name" value="xml"></property>
+                <property name="extension" value=".xml"></property>
+                <property name="desc" value="xese mdew lsee"></property>
+            </bean>
+        </property>
+
+        <property name="name" value="Configuration_Datei"></property>
+        <property name="created">
+            <bean factory-bean="dateFormat" factory-method="parse">
+                <constructor-arg value="2016-07-07"></constructor-arg>
+            </bean>
+        </property>
+        <property name="location" value="/Document/Ange/Configuration_Datei.xml"></property>
+        <property name="modified">
+            <bean factory-bean="dateFormat" factory-method="parse">
+                <constructor-arg value="2017-07-08"></constructor-arg>
+            </bean>
+        </property>
+
+    </bean>
+
+
+    <bean id="dateFormat" class="java.text.SimpleDateFormat">
+        <constructor-arg value="yyyy-MM-dd"></constructor-arg>
+    </bean>
+
+</beans>

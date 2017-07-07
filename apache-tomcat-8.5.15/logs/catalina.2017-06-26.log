@@ -1,0 +1,788 @@
+26-Jun-2017 10:56:20.436 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.5.15
+26-Jun-2017 10:56:20.436 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          May 5 2017 11:03:04 UTC
+26-Jun-2017 10:56:20.436 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.5.15.0
+26-Jun-2017 10:56:20.436 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 7
+26-Jun-2017 10:56:20.436 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            6.1
+26-Jun-2017 10:56:20.436 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+26-Jun-2017 10:56:20.436 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk1.8.0_102\jre
+26-Jun-2017 10:56:20.436 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_102-b14
+26-Jun-2017 10:56:20.436 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+26-Jun-2017 10:56:20.436 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Projekte\apache-tomcat-8.5.15
+26-Jun-2017 10:56:20.436 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Projekte\apache-tomcat-8.5.15
+26-Jun-2017 10:56:20.436 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Projekte\apache-tomcat-8.5.15\conf\logging.properties
+26-Jun-2017 10:56:20.436 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+26-Jun-2017 10:56:20.436 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+26-Jun-2017 10:56:20.452 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+26-Jun-2017 10:56:20.452 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Projekte\apache-tomcat-8.5.15
+26-Jun-2017 10:56:20.452 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Projekte\apache-tomcat-8.5.15
+26-Jun-2017 10:56:20.452 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Projekte\apache-tomcat-8.5.15\temp
+26-Jun-2017 10:56:20.452 INFORMATION [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_102\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\PHP\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\TortoiseSVN\bin;C:\HashiCorp\Vagrant\bin;C:\Program Files (x86)\Brackets\command;C:\Program Files\nodejs\;C:\Users\nmodjo\AppData\Local\Atlassian\SourceTree\git_local\bin;;.]
+26-Jun-2017 10:56:20.592 INFORMATION [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+26-Jun-2017 10:56:20.717 INFORMATION [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+26-Jun-2017 10:56:20.717 INFORMATION [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+26-Jun-2017 10:56:20.717 INFORMATION [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+26-Jun-2017 10:56:20.717 INFORMATION [main] org.apache.catalina.startup.Catalina.load Initialization processed in 616 ms
+26-Jun-2017 10:56:20.748 INFORMATION [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+26-Jun-2017 10:56:20.748 INFORMATION [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.15
+26-Jun-2017 10:56:20.748 INFORMATION [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Projekte\apache-tomcat-8.5.15\webapps\Ange]
+26-Jun-2017 10:56:20.952 INFORMATION [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+26-Jun-2017 10:56:20.983 INFORMATION [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Projekte\apache-tomcat-8.5.15\webapps\Ange] has finished in [235] ms
+26-Jun-2017 10:56:20.983 INFORMATION [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Projekte\apache-tomcat-8.5.15\webapps\docs]
+26-Jun-2017 10:56:20.999 INFORMATION [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Projekte\apache-tomcat-8.5.15\webapps\docs] has finished in [16] ms
+26-Jun-2017 10:56:20.999 INFORMATION [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Projekte\apache-tomcat-8.5.15\webapps\examples]
+26-Jun-2017 10:56:21.202 INFORMATION [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Projekte\apache-tomcat-8.5.15\webapps\examples] has finished in [203] ms
+26-Jun-2017 10:56:21.202 INFORMATION [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Projekte\apache-tomcat-8.5.15\webapps\host-manager]
+26-Jun-2017 10:56:21.217 INFORMATION [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Projekte\apache-tomcat-8.5.15\webapps\host-manager] has finished in [15] ms
+26-Jun-2017 10:56:21.217 INFORMATION [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Projekte\apache-tomcat-8.5.15\webapps\manager]
+26-Jun-2017 10:56:21.233 INFORMATION [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Projekte\apache-tomcat-8.5.15\webapps\manager] has finished in [16] ms
+26-Jun-2017 10:56:21.233 INFORMATION [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Projekte\apache-tomcat-8.5.15\webapps\ROOT]
+26-Jun-2017 10:56:21.249 INFORMATION [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Projekte\apache-tomcat-8.5.15\webapps\ROOT] has finished in [16] ms
+26-Jun-2017 10:56:21.249 INFORMATION [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Projekte\apache-tomcat-8.5.15\webapps\Test]
+26-Jun-2017 10:56:21.264 INFORMATION [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+26-Jun-2017 10:56:21.264 INFORMATION [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Projekte\apache-tomcat-8.5.15\webapps\Test] has finished in [15] ms
+26-Jun-2017 10:56:21.264 INFORMATION [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+26-Jun-2017 10:56:21.280 INFORMATION [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+26-Jun-2017 10:56:21.280 INFORMATION [main] org.apache.catalina.startup.Catalina.start Server startup in 554 ms
+26-Jun-2017 10:57:26.734 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.5.15
+26-Jun-2017 10:57:26.734 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          May 5 2017 11:03:04 UTC
+26-Jun-2017 10:57:26.734 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.5.15.0
+26-Jun-2017 10:57:26.734 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 7
+26-Jun-2017 10:57:26.734 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            6.1
+26-Jun-2017 10:57:26.734 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+26-Jun-2017 10:57:26.734 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk1.8.0_102\jre
+26-Jun-2017 10:57:26.734 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_102-b14
+26-Jun-2017 10:57:26.734 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+26-Jun-2017 10:57:26.734 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Projekte\apache-tomcat-8.5.15
+26-Jun-2017 10:57:26.734 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Projekte\apache-tomcat-8.5.15
+26-Jun-2017 10:57:26.734 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Projekte\apache-tomcat-8.5.15\conf\logging.properties
+26-Jun-2017 10:57:26.734 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+26-Jun-2017 10:57:26.734 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+26-Jun-2017 10:57:26.734 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+26-Jun-2017 10:57:26.734 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Projekte\apache-tomcat-8.5.15
+26-Jun-2017 10:57:26.734 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Projekte\apache-tomcat-8.5.15
+26-Jun-2017 10:57:26.734 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Projekte\apache-tomcat-8.5.15\temp
+26-Jun-2017 10:57:26.734 INFORMATION [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_102\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\PHP\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\TortoiseSVN\bin;C:\HashiCorp\Vagrant\bin;C:\Program Files (x86)\Brackets\command;C:\Program Files\nodejs\;C:\Users\nmodjo\AppData\Local\Atlassian\SourceTree\git_local\bin;;.]
+26-Jun-2017 10:57:26.812 INFORMATION [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+26-Jun-2017 10:57:26.936 INFORMATION [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+26-Jun-2017 10:57:26.952 INFORMATION [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+26-Jun-2017 10:57:26.952 INFORMATION [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+26-Jun-2017 10:57:26.952 INFORMATION [main] org.apache.catalina.startup.Catalina.load Initialization processed in 458 ms
+26-Jun-2017 10:57:26.968 INFORMATION [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+26-Jun-2017 10:57:26.968 INFORMATION [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.15
+26-Jun-2017 10:57:26.968 INFORMATION [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Projekte\apache-tomcat-8.5.15\webapps\Ange]
+26-Jun-2017 10:57:27.139 INFORMATION [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+26-Jun-2017 10:57:27.170 INFORMATION [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Projekte\apache-tomcat-8.5.15\webapps\Ange] has finished in [202] ms
+26-Jun-2017 10:57:27.170 INFORMATION [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Projekte\apache-tomcat-8.5.15\webapps\docs]
+26-Jun-2017 10:57:27.186 INFORMATION [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Projekte\apache-tomcat-8.5.15\webapps\docs] has finished in [16] ms
+26-Jun-2017 10:57:27.186 INFORMATION [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Projekte\apache-tomcat-8.5.15\webapps\examples]
+26-Jun-2017 10:57:27.390 INFORMATION [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Projekte\apache-tomcat-8.5.15\webapps\examples] has finished in [204] ms
+26-Jun-2017 10:57:27.390 INFORMATION [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Projekte\apache-tomcat-8.5.15\webapps\host-manager]
+26-Jun-2017 10:57:27.405 INFORMATION [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Projekte\apache-tomcat-8.5.15\webapps\host-manager] has finished in [15] ms
+26-Jun-2017 10:57:27.405 INFORMATION [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Projekte\apache-tomcat-8.5.15\webapps\manager]
+26-Jun-2017 10:57:27.421 INFORMATION [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Projekte\apache-tomcat-8.5.15\webapps\manager] has finished in [16] ms
+26-Jun-2017 10:57:27.421 INFORMATION [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Projekte\apache-tomcat-8.5.15\webapps\ROOT]
+26-Jun-2017 10:57:27.437 INFORMATION [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Projekte\apache-tomcat-8.5.15\webapps\ROOT] has finished in [16] ms
+26-Jun-2017 10:57:27.437 INFORMATION [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Projekte\apache-tomcat-8.5.15\webapps\Test]
+26-Jun-2017 10:57:27.452 INFORMATION [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+26-Jun-2017 10:57:27.452 INFORMATION [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Projekte\apache-tomcat-8.5.15\webapps\Test] has finished in [15] ms
+26-Jun-2017 10:57:27.452 INFORMATION [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+26-Jun-2017 10:57:27.452 INFORMATION [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+26-Jun-2017 10:57:27.452 INFORMATION [main] org.apache.catalina.startup.Catalina.start Server startup in 510 ms
+26-Jun-2017 11:33:50.208 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.5.15
+26-Jun-2017 11:33:50.208 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          May 5 2017 11:03:04 UTC
+26-Jun-2017 11:33:50.208 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.5.15.0
+26-Jun-2017 11:33:50.208 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 7
+26-Jun-2017 11:33:50.208 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            6.1
+26-Jun-2017 11:33:50.208 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+26-Jun-2017 11:33:50.208 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk1.8.0_102\jre
+26-Jun-2017 11:33:50.208 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_102-b14
+26-Jun-2017 11:33:50.208 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+26-Jun-2017 11:33:50.208 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Projekte\apache-tomcat-8.5.15
+26-Jun-2017 11:33:50.208 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Projekte\apache-tomcat-8.5.15
+26-Jun-2017 11:33:50.208 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Projekte\apache-tomcat-8.5.15\conf\logging.properties
+26-Jun-2017 11:33:50.208 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+26-Jun-2017 11:33:50.208 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+26-Jun-2017 11:33:50.208 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+26-Jun-2017 11:33:50.208 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Projekte\apache-tomcat-8.5.15
+26-Jun-2017 11:33:50.208 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Projekte\apache-tomcat-8.5.15
+26-Jun-2017 11:33:50.208 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Projekte\apache-tomcat-8.5.15\temp
+26-Jun-2017 11:33:50.208 INFORMATION [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_102\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\PHP\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\TortoiseSVN\bin;C:\HashiCorp\Vagrant\bin;C:\Program Files (x86)\Brackets\command;C:\Program Files\nodejs\;C:\Users\nmodjo\AppData\Local\Atlassian\SourceTree\git_local\bin;;.]
+26-Jun-2017 11:33:50.302 INFORMATION [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+26-Jun-2017 11:33:50.302 SCHWERWIEGEND [main] org.apache.coyote.AbstractProtocol.init Failed to initialize end point associated with ProtocolHandler ["http-nio-8080"]
+ java.net.BindException: Address already in use: bind
+	at sun.nio.ch.Net.bind0(Native Method)
+	at sun.nio.ch.Net.bind(Net.java:433)
+	at sun.nio.ch.Net.bind(Net.java:425)
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:223)
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74)
+	at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:210)
+	at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:970)
+	at org.apache.tomcat.util.net.AbstractJsseEndpoint.init(AbstractJsseEndpoint.java:244)
+	at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:613)
+	at org.apache.coyote.http11.AbstractHttp11Protocol.init(AbstractHttp11Protocol.java:66)
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:997)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:107)
+	at org.apache.catalina.core.StandardService.initInternal(StandardService.java:549)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:107)
+	at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:875)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:107)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:607)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:630)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:311)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:494)
+
+26-Jun-2017 11:33:50.302 SCHWERWIEGEND [main] org.apache.catalina.core.StandardService.initInternal Failed to initialize connector [Connector[HTTP/1.1-8080]]
+ org.apache.catalina.LifecycleException: Failed to initialize component [Connector[HTTP/1.1-8080]]
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:112)
+	at org.apache.catalina.core.StandardService.initInternal(StandardService.java:549)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:107)
+	at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:875)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:107)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:607)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:630)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:311)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:494)
+Caused by: org.apache.catalina.LifecycleException: Protocol handler initialization failed
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:999)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:107)
+	... 12 more
+Caused by: java.net.BindException: Address already in use: bind
+	at sun.nio.ch.Net.bind0(Native Method)
+	at sun.nio.ch.Net.bind(Net.java:433)
+	at sun.nio.ch.Net.bind(Net.java:425)
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:223)
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74)
+	at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:210)
+	at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:970)
+	at org.apache.tomcat.util.net.AbstractJsseEndpoint.init(AbstractJsseEndpoint.java:244)
+	at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:613)
+	at org.apache.coyote.http11.AbstractHttp11Protocol.init(AbstractHttp11Protocol.java:66)
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:997)
+	... 13 more
+
+26-Jun-2017 11:33:50.317 INFORMATION [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+26-Jun-2017 11:33:50.317 SCHWERWIEGEND [main] org.apache.coyote.AbstractProtocol.init Failed to initialize end point associated with ProtocolHandler ["ajp-nio-8009"]
+ java.net.BindException: Address already in use: bind
+	at sun.nio.ch.Net.bind0(Native Method)
+	at sun.nio.ch.Net.bind(Net.java:433)
+	at sun.nio.ch.Net.bind(Net.java:425)
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:223)
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74)
+	at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:210)
+	at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:970)
+	at org.apache.tomcat.util.net.AbstractJsseEndpoint.init(AbstractJsseEndpoint.java:244)
+	at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:613)
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:997)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:107)
+	at org.apache.catalina.core.StandardService.initInternal(StandardService.java:549)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:107)
+	at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:875)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:107)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:607)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:630)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:311)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:494)
+
+26-Jun-2017 11:33:50.317 SCHWERWIEGEND [main] org.apache.catalina.core.StandardService.initInternal Failed to initialize connector [Connector[AJP/1.3-8009]]
+ org.apache.catalina.LifecycleException: Failed to initialize component [Connector[AJP/1.3-8009]]
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:112)
+	at org.apache.catalina.core.StandardService.initInternal(StandardService.java:549)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:107)
+	at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:875)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:107)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:607)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:630)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:311)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:494)
+Caused by: org.apache.catalina.LifecycleException: Protocol handler initialization failed
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:999)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:107)
+	... 12 more
+Caused by: java.net.BindException: Address already in use: bind
+	at sun.nio.ch.Net.bind0(Native Method)
+	at sun.nio.ch.Net.bind(Net.java:433)
+	at sun.nio.ch.Net.bind(Net.java:425)
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:223)
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74)
+	at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:210)
+	at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:970)
+	at org.apache.tomcat.util.net.AbstractJsseEndpoint.init(AbstractJsseEndpoint.java:244)
+	at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:613)
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:997)
+	... 13 more
+
+26-Jun-2017 11:33:50.317 INFORMATION [main] org.apache.catalina.startup.Catalina.load Initialization processed in 337 ms
+26-Jun-2017 11:33:50.333 INFORMATION [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+26-Jun-2017 11:33:50.333 INFORMATION [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.15
+26-Jun-2017 11:33:50.333 INFORMATION [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Projekte\apache-tomcat-8.5.15\webapps\Ange]
+26-Jun-2017 11:33:50.504 INFORMATION [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+26-Jun-2017 11:33:50.616 INFORMATION [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Projekte\apache-tomcat-8.5.15\webapps\Ange] has finished in [283] ms
+26-Jun-2017 11:33:50.616 INFORMATION [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Projekte\apache-tomcat-8.5.15\webapps\docs]
+26-Jun-2017 11:33:50.631 INFORMATION [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Projekte\apache-tomcat-8.5.15\webapps\docs] has finished in [15] ms
+26-Jun-2017 11:33:50.631 INFORMATION [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Projekte\apache-tomcat-8.5.15\webapps\examples]
+26-Jun-2017 11:33:50.818 INFORMATION [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Projekte\apache-tomcat-8.5.15\webapps\examples] has finished in [187] ms
+26-Jun-2017 11:33:50.818 INFORMATION [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Projekte\apache-tomcat-8.5.15\webapps\host-manager]
+26-Jun-2017 11:33:50.850 INFORMATION [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Projekte\apache-tomcat-8.5.15\webapps\host-manager] has finished in [32] ms
+26-Jun-2017 11:33:50.850 INFORMATION [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Projekte\apache-tomcat-8.5.15\webapps\manager]
+26-Jun-2017 11:33:50.865 INFORMATION [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Projekte\apache-tomcat-8.5.15\webapps\manager] has finished in [15] ms
+26-Jun-2017 11:33:50.865 INFORMATION [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Projekte\apache-tomcat-8.5.15\webapps\ROOT]
+26-Jun-2017 11:33:50.866 INFORMATION [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Projekte\apache-tomcat-8.5.15\webapps\ROOT] has finished in [1] ms
+26-Jun-2017 11:33:50.866 INFORMATION [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Projekte\apache-tomcat-8.5.15\webapps\Test]
+26-Jun-2017 11:33:50.868 INFORMATION [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+26-Jun-2017 11:33:50.869 INFORMATION [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Projekte\apache-tomcat-8.5.15\webapps\Test] has finished in [3] ms
+26-Jun-2017 11:33:50.871 INFORMATION [main] org.apache.catalina.startup.Catalina.start Server startup in 579 ms
+26-Jun-2017 11:33:50.873 SCHWERWIEGEND [main] org.apache.catalina.core.StandardServer.await StandardServer.await: create[localhost:8005]: 
+ java.net.BindException: Address already in use: JVM_Bind
+	at java.net.DualStackPlainSocketImpl.bind0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketBind(DualStackPlainSocketImpl.java:106)
+	at java.net.AbstractPlainSocketImpl.bind(AbstractPlainSocketImpl.java:387)
+	at java.net.PlainSocketImpl.bind(PlainSocketImpl.java:190)
+	at java.net.ServerSocket.bind(ServerSocket.java:375)
+	at java.net.ServerSocket.<init>(ServerSocket.java:237)
+	at org.apache.catalina.core.StandardServer.await(StandardServer.java:440)
+	at org.apache.catalina.startup.Catalina.await(Catalina.java:744)
+	at org.apache.catalina.startup.Catalina.start(Catalina.java:690)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:355)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:495)
+
+26-Jun-2017 11:33:50.874 INFORMATION [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+26-Jun-2017 11:33:50.874 INFORMATION [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+26-Jun-2017 11:33:50.875 INFORMATION [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+26-Jun-2017 11:33:50.911 INFORMATION [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+26-Jun-2017 11:33:50.911 INFORMATION [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+26-Jun-2017 11:33:50.911 INFORMATION [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+26-Jun-2017 11:33:50.911 INFORMATION [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+26-Jun-2017 11:43:24.573 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.5.15
+26-Jun-2017 11:43:24.573 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          May 5 2017 11:03:04 UTC
+26-Jun-2017 11:43:24.573 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.5.15.0
+26-Jun-2017 11:43:24.573 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 7
+26-Jun-2017 11:43:24.573 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            6.1
+26-Jun-2017 11:43:24.573 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+26-Jun-2017 11:43:24.573 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk1.8.0_102\jre
+26-Jun-2017 11:43:24.573 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_102-b14
+26-Jun-2017 11:43:24.573 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+26-Jun-2017 11:43:24.573 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Projekte\apache-tomcat-8.5.15
+26-Jun-2017 11:43:24.573 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Projekte\apache-tomcat-8.5.15
+26-Jun-2017 11:43:24.573 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Projekte\apache-tomcat-8.5.15\conf\logging.properties
+26-Jun-2017 11:43:24.573 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+26-Jun-2017 11:43:24.573 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+26-Jun-2017 11:43:24.573 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+26-Jun-2017 11:43:24.573 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Projekte\apache-tomcat-8.5.15
+26-Jun-2017 11:43:24.573 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Projekte\apache-tomcat-8.5.15
+26-Jun-2017 11:43:24.573 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Projekte\apache-tomcat-8.5.15\temp
+26-Jun-2017 11:43:24.573 INFORMATION [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_102\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\PHP\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\TortoiseSVN\bin;C:\HashiCorp\Vagrant\bin;C:\Program Files (x86)\Brackets\command;C:\Program Files\nodejs\;C:\Users\nmodjo\AppData\Local\Atlassian\SourceTree\git_local\bin;;.]
+26-Jun-2017 11:43:24.657 INFORMATION [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+26-Jun-2017 11:43:24.657 SCHWERWIEGEND [main] org.apache.coyote.AbstractProtocol.init Failed to initialize end point associated with ProtocolHandler ["http-nio-8080"]
+ java.net.BindException: Address already in use: bind
+	at sun.nio.ch.Net.bind0(Native Method)
+	at sun.nio.ch.Net.bind(Net.java:433)
+	at sun.nio.ch.Net.bind(Net.java:425)
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:223)
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74)
+	at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:210)
+	at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:970)
+	at org.apache.tomcat.util.net.AbstractJsseEndpoint.init(AbstractJsseEndpoint.java:244)
+	at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:613)
+	at org.apache.coyote.http11.AbstractHttp11Protocol.init(AbstractHttp11Protocol.java:66)
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:997)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:107)
+	at org.apache.catalina.core.StandardService.initInternal(StandardService.java:549)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:107)
+	at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:875)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:107)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:607)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:630)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:311)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:494)
+
+26-Jun-2017 11:43:24.657 SCHWERWIEGEND [main] org.apache.catalina.core.StandardService.initInternal Failed to initialize connector [Connector[HTTP/1.1-8080]]
+ org.apache.catalina.LifecycleException: Failed to initialize component [Connector[HTTP/1.1-8080]]
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:112)
+	at org.apache.catalina.core.StandardService.initInternal(StandardService.java:549)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:107)
+	at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:875)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:107)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:607)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:630)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:311)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:494)
+Caused by: org.apache.catalina.LifecycleException: Protocol handler initialization failed
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:999)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:107)
+	... 12 more
+Caused by: java.net.BindException: Address already in use: bind
+	at sun.nio.ch.Net.bind0(Native Method)
+	at sun.nio.ch.Net.bind(Net.java:433)
+	at sun.nio.ch.Net.bind(Net.java:425)
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:223)
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74)
+	at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:210)
+	at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:970)
+	at org.apache.tomcat.util.net.AbstractJsseEndpoint.init(AbstractJsseEndpoint.java:244)
+	at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:613)
+	at org.apache.coyote.http11.AbstractHttp11Protocol.init(AbstractHttp11Protocol.java:66)
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:997)
+	... 13 more
+
+26-Jun-2017 11:43:24.657 INFORMATION [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+26-Jun-2017 11:43:24.673 SCHWERWIEGEND [main] org.apache.coyote.AbstractProtocol.init Failed to initialize end point associated with ProtocolHandler ["ajp-nio-8009"]
+ java.net.BindException: Address already in use: bind
+	at sun.nio.ch.Net.bind0(Native Method)
+	at sun.nio.ch.Net.bind(Net.java:433)
+	at sun.nio.ch.Net.bind(Net.java:425)
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:223)
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74)
+	at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:210)
+	at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:970)
+	at org.apache.tomcat.util.net.AbstractJsseEndpoint.init(AbstractJsseEndpoint.java:244)
+	at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:613)
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:997)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:107)
+	at org.apache.catalina.core.StandardService.initInternal(StandardService.java:549)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:107)
+	at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:875)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:107)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:607)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:630)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:311)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:494)
+
+26-Jun-2017 11:43:24.673 SCHWERWIEGEND [main] org.apache.catalina.core.StandardService.initInternal Failed to initialize connector [Connector[AJP/1.3-8009]]
+ org.apache.catalina.LifecycleException: Failed to initialize component [Connector[AJP/1.3-8009]]
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:112)
+	at org.apache.catalina.core.StandardService.initInternal(StandardService.java:549)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:107)
+	at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:875)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:107)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:607)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:630)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:311)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:494)
+Caused by: org.apache.catalina.LifecycleException: Protocol handler initialization failed
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:999)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:107)
+	... 12 more
+Caused by: java.net.BindException: Address already in use: bind
+	at sun.nio.ch.Net.bind0(Native Method)
+	at sun.nio.ch.Net.bind(Net.java:433)
+	at sun.nio.ch.Net.bind(Net.java:425)
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:223)
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74)
+	at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:210)
+	at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:970)
+	at org.apache.tomcat.util.net.AbstractJsseEndpoint.init(AbstractJsseEndpoint.java:244)
+	at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:613)
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:997)
+	... 13 more
+
+26-Jun-2017 11:43:24.673 INFORMATION [main] org.apache.catalina.startup.Catalina.load Initialization processed in 351 ms
+26-Jun-2017 11:43:24.689 INFORMATION [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+26-Jun-2017 11:43:24.689 INFORMATION [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.15
+26-Jun-2017 11:43:24.689 INFORMATION [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Projekte\apache-tomcat-8.5.15\webapps\Ange]
+26-Jun-2017 11:43:24.860 INFORMATION [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+26-Jun-2017 11:43:24.969 INFORMATION [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Projekte\apache-tomcat-8.5.15\webapps\Ange] has finished in [280] ms
+26-Jun-2017 11:43:24.969 INFORMATION [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Projekte\apache-tomcat-8.5.15\webapps\docs]
+26-Jun-2017 11:43:24.985 INFORMATION [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Projekte\apache-tomcat-8.5.15\webapps\docs] has finished in [16] ms
+26-Jun-2017 11:43:24.985 INFORMATION [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Projekte\apache-tomcat-8.5.15\webapps\examples]
+26-Jun-2017 11:43:25.188 INFORMATION [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Projekte\apache-tomcat-8.5.15\webapps\examples] has finished in [203] ms
+26-Jun-2017 11:43:25.188 INFORMATION [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Projekte\apache-tomcat-8.5.15\webapps\host-manager]
+26-Jun-2017 11:43:25.203 INFORMATION [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Projekte\apache-tomcat-8.5.15\webapps\host-manager] has finished in [15] ms
+26-Jun-2017 11:43:25.203 INFORMATION [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Projekte\apache-tomcat-8.5.15\webapps\manager]
+26-Jun-2017 11:43:25.219 INFORMATION [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Projekte\apache-tomcat-8.5.15\webapps\manager] has finished in [16] ms
+26-Jun-2017 11:43:25.219 INFORMATION [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Projekte\apache-tomcat-8.5.15\webapps\ROOT]
+26-Jun-2017 11:43:25.219 INFORMATION [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Projekte\apache-tomcat-8.5.15\webapps\ROOT] has finished in [0] ms
+26-Jun-2017 11:43:25.219 INFORMATION [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Projekte\apache-tomcat-8.5.15\webapps\Test]
+26-Jun-2017 11:43:25.235 INFORMATION [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+26-Jun-2017 11:43:25.235 INFORMATION [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Projekte\apache-tomcat-8.5.15\webapps\Test] has finished in [16] ms
+26-Jun-2017 11:43:25.235 INFORMATION [main] org.apache.catalina.startup.Catalina.start Server startup in 573 ms
+26-Jun-2017 11:43:25.250 SCHWERWIEGEND [main] org.apache.catalina.core.StandardServer.await StandardServer.await: create[localhost:8005]: 
+ java.net.BindException: Address already in use: JVM_Bind
+	at java.net.DualStackPlainSocketImpl.bind0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketBind(DualStackPlainSocketImpl.java:106)
+	at java.net.AbstractPlainSocketImpl.bind(AbstractPlainSocketImpl.java:387)
+	at java.net.PlainSocketImpl.bind(PlainSocketImpl.java:190)
+	at java.net.ServerSocket.bind(ServerSocket.java:375)
+	at java.net.ServerSocket.<init>(ServerSocket.java:237)
+	at org.apache.catalina.core.StandardServer.await(StandardServer.java:440)
+	at org.apache.catalina.startup.Catalina.await(Catalina.java:744)
+	at org.apache.catalina.startup.Catalina.start(Catalina.java:690)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:355)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:495)
+
+26-Jun-2017 11:43:25.250 INFORMATION [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+26-Jun-2017 11:43:25.250 INFORMATION [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+26-Jun-2017 11:43:25.250 INFORMATION [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+26-Jun-2017 11:43:25.266 INFORMATION [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+26-Jun-2017 11:43:25.266 INFORMATION [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+26-Jun-2017 11:43:25.266 INFORMATION [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+26-Jun-2017 11:43:25.266 INFORMATION [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+26-Jun-2017 11:56:54.987 INFORMATION [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+26-Jun-2017 11:56:54.987 INFORMATION [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+26-Jun-2017 11:56:55.103 INFORMATION [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+26-Jun-2017 11:56:55.218 INFORMATION [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+26-Jun-2017 11:56:55.237 INFORMATION [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+26-Jun-2017 11:56:55.238 INFORMATION [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+26-Jun-2017 11:56:55.239 INFORMATION [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+26-Jun-2017 11:56:55.241 INFORMATION [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+26-Jun-2017 11:56:57.810 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.5.15
+26-Jun-2017 11:56:57.812 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          May 5 2017 11:03:04 UTC
+26-Jun-2017 11:56:57.812 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.5.15.0
+26-Jun-2017 11:56:57.812 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 7
+26-Jun-2017 11:56:57.812 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            6.1
+26-Jun-2017 11:56:57.812 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+26-Jun-2017 11:56:57.812 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk1.8.0_102\jre
+26-Jun-2017 11:56:57.813 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_102-b14
+26-Jun-2017 11:56:57.813 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+26-Jun-2017 11:56:57.813 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Projekte\apache-tomcat-8.5.15
+26-Jun-2017 11:56:57.813 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Projekte\apache-tomcat-8.5.15
+26-Jun-2017 11:56:57.813 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Projekte\apache-tomcat-8.5.15\conf\logging.properties
+26-Jun-2017 11:56:57.813 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+26-Jun-2017 11:56:57.814 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+26-Jun-2017 11:56:57.814 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+26-Jun-2017 11:56:57.815 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Projekte\apache-tomcat-8.5.15
+26-Jun-2017 11:56:57.815 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Projekte\apache-tomcat-8.5.15
+26-Jun-2017 11:56:57.815 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Projekte\apache-tomcat-8.5.15\temp
+26-Jun-2017 11:56:57.815 INFORMATION [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_102\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\PHP\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\TortoiseSVN\bin;C:\HashiCorp\Vagrant\bin;C:\Program Files (x86)\Brackets\command;C:\Program Files\nodejs\;C:\Users\nmodjo\AppData\Local\Atlassian\SourceTree\git_local\bin;;.]
+26-Jun-2017 11:56:57.893 INFORMATION [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+26-Jun-2017 11:56:58.028 INFORMATION [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+26-Jun-2017 11:56:58.030 INFORMATION [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+26-Jun-2017 11:56:58.031 INFORMATION [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+26-Jun-2017 11:56:58.032 INFORMATION [main] org.apache.catalina.startup.Catalina.load Initialization processed in 458 ms
+26-Jun-2017 11:56:58.051 SCHWERWIEGEND [main] org.apache.tomcat.util.digester.Digester.fatalError Parse Fatal Error at line 41 column 35: Wert des Attributs "password", das mit Elementtyp "user" verknüpft ist, darf nicht das Zeichen "<" enthalten.
+ org.xml.sax.SAXParseException; lineNumber: 41; columnNumber: 35; Wert des Attributs "password", das mit Elementtyp "user" verknüpft ist, darf nicht das Zeichen "<" enthalten.
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.createSAXParseException(ErrorHandlerWrapper.java:203)
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.fatalError(ErrorHandlerWrapper.java:177)
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:400)
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:327)
+	at com.sun.org.apache.xerces.internal.impl.XMLScanner.reportFatalError(XMLScanner.java:1472)
+	at com.sun.org.apache.xerces.internal.impl.XMLScanner.scanAttributeValue(XMLScanner.java:944)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanAttribute(XMLDocumentFragmentScannerImpl.java:1548)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanStartElement(XMLDocumentFragmentScannerImpl.java:1315)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDriver.next(XMLDocumentFragmentScannerImpl.java:2784)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XMLDocumentScannerImpl.java:602)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:505)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:841)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:770)
+	at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:141)
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1213)
+	at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(SAXParserImpl.java:643)
+	at org.apache.tomcat.util.digester.Digester.parse(Digester.java:1491)
+	at org.apache.catalina.users.MemoryUserDatabase.open(MemoryUserDatabase.java:416)
+	at org.apache.catalina.users.MemoryUserDatabaseFactory.getObjectInstance(MemoryUserDatabaseFactory.java:102)
+	at org.apache.naming.factory.FactoryBase.getObjectInstance(FactoryBase.java:94)
+	at javax.naming.spi.NamingManager.getObjectInstance(NamingManager.java:321)
+	at org.apache.naming.NamingContext.lookup(NamingContext.java:839)
+	at org.apache.naming.NamingContext.lookup(NamingContext.java:159)
+	at org.apache.naming.NamingContextBindingsEnumeration.nextElementInternal(NamingContextBindingsEnumeration.java:117)
+	at org.apache.naming.NamingContextBindingsEnumeration.next(NamingContextBindingsEnumeration.java:71)
+	at org.apache.naming.NamingContextBindingsEnumeration.next(NamingContextBindingsEnumeration.java:34)
+	at org.apache.catalina.mbeans.GlobalResourcesLifecycleListener.createMBeans(GlobalResourcesLifecycleListener.java:138)
+	at org.apache.catalina.mbeans.GlobalResourcesLifecycleListener.createMBeans(GlobalResourcesLifecycleListener.java:110)
+	at org.apache.catalina.mbeans.GlobalResourcesLifecycleListener.lifecycleEvent(GlobalResourcesLifecycleListener.java:82)
+	at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:94)
+	at org.apache.catalina.util.LifecycleBase.setStateInternal(LifecycleBase.java:395)
+	at org.apache.catalina.util.LifecycleBase.setState(LifecycleBase.java:339)
+	at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:786)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.startup.Catalina.start(Catalina.java:656)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:355)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:495)
+
+26-Jun-2017 11:56:58.055 WARNUNG [main] org.apache.naming.NamingContext.lookup Unexpected exception resolving reference
+ org.xml.sax.SAXParseException; lineNumber: 41; columnNumber: 35; Wert des Attributs "password", das mit Elementtyp "user" verknüpft ist, darf nicht das Zeichen "<" enthalten.
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1239)
+	at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(SAXParserImpl.java:643)
+	at org.apache.tomcat.util.digester.Digester.parse(Digester.java:1491)
+	at org.apache.catalina.users.MemoryUserDatabase.open(MemoryUserDatabase.java:416)
+	at org.apache.catalina.users.MemoryUserDatabaseFactory.getObjectInstance(MemoryUserDatabaseFactory.java:102)
+	at org.apache.naming.factory.FactoryBase.getObjectInstance(FactoryBase.java:94)
+	at javax.naming.spi.NamingManager.getObjectInstance(NamingManager.java:321)
+	at org.apache.naming.NamingContext.lookup(NamingContext.java:839)
+	at org.apache.naming.NamingContext.lookup(NamingContext.java:159)
+	at org.apache.naming.NamingContextBindingsEnumeration.nextElementInternal(NamingContextBindingsEnumeration.java:117)
+	at org.apache.naming.NamingContextBindingsEnumeration.next(NamingContextBindingsEnumeration.java:71)
+	at org.apache.naming.NamingContextBindingsEnumeration.next(NamingContextBindingsEnumeration.java:34)
+	at org.apache.catalina.mbeans.GlobalResourcesLifecycleListener.createMBeans(GlobalResourcesLifecycleListener.java:138)
+	at org.apache.catalina.mbeans.GlobalResourcesLifecycleListener.createMBeans(GlobalResourcesLifecycleListener.java:110)
+	at org.apache.catalina.mbeans.GlobalResourcesLifecycleListener.lifecycleEvent(GlobalResourcesLifecycleListener.java:82)
+	at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:94)
+	at org.apache.catalina.util.LifecycleBase.setStateInternal(LifecycleBase.java:395)
+	at org.apache.catalina.util.LifecycleBase.setState(LifecycleBase.java:339)
+	at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:786)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.startup.Catalina.start(Catalina.java:656)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:355)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:495)
+
+26-Jun-2017 11:56:58.056 SCHWERWIEGEND [main] org.apache.catalina.mbeans.GlobalResourcesLifecycleListener.createMBeans Exception processing Global JNDI Resources
+ javax.naming.NamingException: Wert des Attributs "password", das mit Elementtyp "user" verknüpft ist, darf nicht das Zeichen "<" enthalten.
+	at org.apache.naming.NamingContext.lookup(NamingContext.java:856)
+	at org.apache.naming.NamingContext.lookup(NamingContext.java:159)
+	at org.apache.naming.NamingContextBindingsEnumeration.nextElementInternal(NamingContextBindingsEnumeration.java:117)
+	at org.apache.naming.NamingContextBindingsEnumeration.next(NamingContextBindingsEnumeration.java:71)
+	at org.apache.naming.NamingContextBindingsEnumeration.next(NamingContextBindingsEnumeration.java:34)
+	at org.apache.catalina.mbeans.GlobalResourcesLifecycleListener.createMBeans(GlobalResourcesLifecycleListener.java:138)
+	at org.apache.catalina.mbeans.GlobalResourcesLifecycleListener.createMBeans(GlobalResourcesLifecycleListener.java:110)
+	at org.apache.catalina.mbeans.GlobalResourcesLifecycleListener.lifecycleEvent(GlobalResourcesLifecycleListener.java:82)
+	at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:94)
+	at org.apache.catalina.util.LifecycleBase.setStateInternal(LifecycleBase.java:395)
+	at org.apache.catalina.util.LifecycleBase.setState(LifecycleBase.java:339)
+	at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:786)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.startup.Catalina.start(Catalina.java:656)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:355)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:495)
+
+26-Jun-2017 11:56:58.058 INFORMATION [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+26-Jun-2017 11:56:58.058 INFORMATION [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.15
+26-Jun-2017 11:56:58.060 SCHWERWIEGEND [main] org.apache.tomcat.util.digester.Digester.fatalError Parse Fatal Error at line 41 column 35: Wert des Attributs "password", das mit Elementtyp "user" verknüpft ist, darf nicht das Zeichen "<" enthalten.
+ org.xml.sax.SAXParseException; lineNumber: 41; columnNumber: 35; Wert des Attributs "password", das mit Elementtyp "user" verknüpft ist, darf nicht das Zeichen "<" enthalten.
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.createSAXParseException(ErrorHandlerWrapper.java:203)
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.fatalError(ErrorHandlerWrapper.java:177)
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:400)
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:327)
+	at com.sun.org.apache.xerces.internal.impl.XMLScanner.reportFatalError(XMLScanner.java:1472)
+	at com.sun.org.apache.xerces.internal.impl.XMLScanner.scanAttributeValue(XMLScanner.java:944)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanAttribute(XMLDocumentFragmentScannerImpl.java:1548)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanStartElement(XMLDocumentFragmentScannerImpl.java:1315)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDriver.next(XMLDocumentFragmentScannerImpl.java:2784)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XMLDocumentScannerImpl.java:602)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:505)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:841)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:770)
+	at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:141)
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1213)
+	at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(SAXParserImpl.java:643)
+	at org.apache.tomcat.util.digester.Digester.parse(Digester.java:1491)
+	at org.apache.catalina.users.MemoryUserDatabase.open(MemoryUserDatabase.java:416)
+	at org.apache.catalina.users.MemoryUserDatabaseFactory.getObjectInstance(MemoryUserDatabaseFactory.java:102)
+	at org.apache.naming.factory.FactoryBase.getObjectInstance(FactoryBase.java:94)
+	at javax.naming.spi.NamingManager.getObjectInstance(NamingManager.java:321)
+	at org.apache.naming.NamingContext.lookup(NamingContext.java:839)
+	at org.apache.naming.NamingContext.lookup(NamingContext.java:173)
+	at org.apache.catalina.realm.UserDatabaseRealm.startInternal(UserDatabaseRealm.java:230)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.realm.CombinedRealm.startInternal(CombinedRealm.java:252)
+	at org.apache.catalina.realm.LockOutRealm.startInternal(LockOutRealm.java:120)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:926)
+	at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:262)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.StandardService.startInternal(StandardService.java:422)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:793)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.startup.Catalina.start(Catalina.java:656)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:355)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:495)
+
+26-Jun-2017 11:56:58.062 WARNUNG [main] org.apache.naming.NamingContext.lookup Unexpected exception resolving reference
+ org.xml.sax.SAXParseException; lineNumber: 41; columnNumber: 35; Wert des Attributs "password", das mit Elementtyp "user" verknüpft ist, darf nicht das Zeichen "<" enthalten.
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1239)
+	at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(SAXParserImpl.java:643)
+	at org.apache.tomcat.util.digester.Digester.parse(Digester.java:1491)
+	at org.apache.catalina.users.MemoryUserDatabase.open(MemoryUserDatabase.java:416)
+	at org.apache.catalina.users.MemoryUserDatabaseFactory.getObjectInstance(MemoryUserDatabaseFactory.java:102)
+	at org.apache.naming.factory.FactoryBase.getObjectInstance(FactoryBase.java:94)
+	at javax.naming.spi.NamingManager.getObjectInstance(NamingManager.java:321)
+	at org.apache.naming.NamingContext.lookup(NamingContext.java:839)
+	at org.apache.naming.NamingContext.lookup(NamingContext.java:173)
+	at org.apache.catalina.realm.UserDatabaseRealm.startInternal(UserDatabaseRealm.java:230)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.realm.CombinedRealm.startInternal(CombinedRealm.java:252)
+	at org.apache.catalina.realm.LockOutRealm.startInternal(LockOutRealm.java:120)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:926)
+	at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:262)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.StandardService.startInternal(StandardService.java:422)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:793)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.startup.Catalina.start(Catalina.java:656)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:355)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:495)
+
+26-Jun-2017 11:56:58.064 SCHWERWIEGEND [main] org.apache.catalina.realm.UserDatabaseRealm.startInternal Exception looking up UserDatabase under key [UserDatabase]
+ javax.naming.NamingException: Wert des Attributs "password", das mit Elementtyp "user" verknüpft ist, darf nicht das Zeichen "<" enthalten.
+	at org.apache.naming.NamingContext.lookup(NamingContext.java:856)
+	at org.apache.naming.NamingContext.lookup(NamingContext.java:173)
+	at org.apache.catalina.realm.UserDatabaseRealm.startInternal(UserDatabaseRealm.java:230)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.realm.CombinedRealm.startInternal(CombinedRealm.java:252)
+	at org.apache.catalina.realm.LockOutRealm.startInternal(LockOutRealm.java:120)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:926)
+	at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:262)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.StandardService.startInternal(StandardService.java:422)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:793)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.startup.Catalina.start(Catalina.java:656)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:355)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:495)
+
+26-Jun-2017 11:56:58.066 SCHWERWIEGEND [main] org.apache.catalina.realm.CombinedRealm.startInternal Failed to start [org.apache.catalina.realm.UserDatabaseRealm] realm
+ org.apache.catalina.LifecycleException: Failed to start component [Realm[UserDatabaseRealm]]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:167)
+	at org.apache.catalina.realm.CombinedRealm.startInternal(CombinedRealm.java:252)
+	at org.apache.catalina.realm.LockOutRealm.startInternal(LockOutRealm.java:120)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:926)
+	at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:262)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.StandardService.startInternal(StandardService.java:422)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:793)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.startup.Catalina.start(Catalina.java:656)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:355)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:495)
+Caused by: org.apache.catalina.LifecycleException: No UserDatabase component found under key [UserDatabase]
+	at org.apache.catalina.realm.UserDatabaseRealm.startInternal(UserDatabaseRealm.java:239)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	... 17 more
+
+26-Jun-2017 11:56:58.074 INFORMATION [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Projekte\apache-tomcat-8.5.15\webapps\Ange]
+26-Jun-2017 11:56:58.239 INFORMATION [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+26-Jun-2017 11:56:58.274 INFORMATION [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Projekte\apache-tomcat-8.5.15\webapps\Ange] has finished in [200] ms
+26-Jun-2017 11:56:58.275 INFORMATION [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Projekte\apache-tomcat-8.5.15\webapps\docs]
+26-Jun-2017 11:56:58.288 INFORMATION [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Projekte\apache-tomcat-8.5.15\webapps\docs] has finished in [13] ms
+26-Jun-2017 11:56:58.288 INFORMATION [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Projekte\apache-tomcat-8.5.15\webapps\examples]
+26-Jun-2017 11:56:58.488 INFORMATION [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Projekte\apache-tomcat-8.5.15\webapps\examples] has finished in [200] ms
+26-Jun-2017 11:56:58.488 INFORMATION [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Projekte\apache-tomcat-8.5.15\webapps\host-manager]
+26-Jun-2017 11:56:58.505 INFORMATION [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Projekte\apache-tomcat-8.5.15\webapps\host-manager] has finished in [17] ms
+26-Jun-2017 11:56:58.506 INFORMATION [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Projekte\apache-tomcat-8.5.15\webapps\manager]
+26-Jun-2017 11:56:58.518 INFORMATION [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Projekte\apache-tomcat-8.5.15\webapps\manager] has finished in [12] ms
+26-Jun-2017 11:56:58.519 INFORMATION [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Projekte\apache-tomcat-8.5.15\webapps\ROOT]
+26-Jun-2017 11:56:58.531 INFORMATION [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Projekte\apache-tomcat-8.5.15\webapps\ROOT] has finished in [12] ms
+26-Jun-2017 11:56:58.532 INFORMATION [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Projekte\apache-tomcat-8.5.15\webapps\Test]
+26-Jun-2017 11:56:58.548 INFORMATION [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+26-Jun-2017 11:56:58.549 INFORMATION [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Projekte\apache-tomcat-8.5.15\webapps\Test] has finished in [18] ms
+26-Jun-2017 11:56:58.551 INFORMATION [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+26-Jun-2017 11:56:58.557 INFORMATION [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+26-Jun-2017 11:56:58.558 INFORMATION [main] org.apache.catalina.startup.Catalina.start Server startup in 526 ms
+26-Jun-2017 11:59:38.066 INFORMATION [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+26-Jun-2017 11:59:38.067 INFORMATION [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+26-Jun-2017 11:59:38.184 INFORMATION [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+26-Jun-2017 11:59:38.296 INFORMATION [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+26-Jun-2017 11:59:38.316 INFORMATION [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+26-Jun-2017 11:59:38.317 INFORMATION [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+26-Jun-2017 11:59:38.318 INFORMATION [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+26-Jun-2017 11:59:38.318 INFORMATION [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+26-Jun-2017 11:59:40.470 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.5.15
+26-Jun-2017 11:59:40.472 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          May 5 2017 11:03:04 UTC
+26-Jun-2017 11:59:40.472 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.5.15.0
+26-Jun-2017 11:59:40.472 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 7
+26-Jun-2017 11:59:40.472 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            6.1
+26-Jun-2017 11:59:40.473 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+26-Jun-2017 11:59:40.473 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk1.8.0_102\jre
+26-Jun-2017 11:59:40.473 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_102-b14
+26-Jun-2017 11:59:40.473 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+26-Jun-2017 11:59:40.473 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Projekte\apache-tomcat-8.5.15
+26-Jun-2017 11:59:40.473 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Projekte\apache-tomcat-8.5.15
+26-Jun-2017 11:59:40.473 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Projekte\apache-tomcat-8.5.15\conf\logging.properties
+26-Jun-2017 11:59:40.474 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+26-Jun-2017 11:59:40.474 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+26-Jun-2017 11:59:40.474 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+26-Jun-2017 11:59:40.474 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Projekte\apache-tomcat-8.5.15
+26-Jun-2017 11:59:40.475 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Projekte\apache-tomcat-8.5.15
+26-Jun-2017 11:59:40.475 INFORMATION [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Projekte\apache-tomcat-8.5.15\temp
+26-Jun-2017 11:59:40.475 INFORMATION [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_102\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\PHP\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\TortoiseSVN\bin;C:\HashiCorp\Vagrant\bin;C:\Program Files (x86)\Brackets\command;C:\Program Files\nodejs\;C:\Users\nmodjo\AppData\Local\Atlassian\SourceTree\git_local\bin;;.]
+26-Jun-2017 11:59:40.562 INFORMATION [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+26-Jun-2017 11:59:40.694 INFORMATION [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+26-Jun-2017 11:59:40.696 INFORMATION [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+26-Jun-2017 11:59:40.698 INFORMATION [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+26-Jun-2017 11:59:40.699 INFORMATION [main] org.apache.catalina.startup.Catalina.load Initialization processed in 472 ms
+26-Jun-2017 11:59:40.717 INFORMATION [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+26-Jun-2017 11:59:40.717 INFORMATION [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.15
+26-Jun-2017 11:59:40.723 INFORMATION [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Projekte\apache-tomcat-8.5.15\webapps\Ange]
+26-Jun-2017 11:59:40.901 INFORMATION [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+26-Jun-2017 11:59:40.932 INFORMATION [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Projekte\apache-tomcat-8.5.15\webapps\Ange] has finished in [210] ms
+26-Jun-2017 11:59:40.932 INFORMATION [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Projekte\apache-tomcat-8.5.15\webapps\docs]
+26-Jun-2017 11:59:40.946 INFORMATION [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Projekte\apache-tomcat-8.5.15\webapps\docs] has finished in [14] ms
+26-Jun-2017 11:59:40.946 INFORMATION [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Projekte\apache-tomcat-8.5.15\webapps\examples]
+26-Jun-2017 11:59:41.146 INFORMATION [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Projekte\apache-tomcat-8.5.15\webapps\examples] has finished in [200] ms
+26-Jun-2017 11:59:41.147 INFORMATION [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Projekte\apache-tomcat-8.5.15\webapps\host-manager]
+26-Jun-2017 11:59:41.162 INFORMATION [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Projekte\apache-tomcat-8.5.15\webapps\host-manager] has finished in [14] ms
+26-Jun-2017 11:59:41.162 INFORMATION [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Projekte\apache-tomcat-8.5.15\webapps\manager]
+26-Jun-2017 11:59:41.174 INFORMATION [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Projekte\apache-tomcat-8.5.15\webapps\manager] has finished in [12] ms
+26-Jun-2017 11:59:41.174 INFORMATION [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Projekte\apache-tomcat-8.5.15\webapps\ROOT]
+26-Jun-2017 11:59:41.186 INFORMATION [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Projekte\apache-tomcat-8.5.15\webapps\ROOT] has finished in [12] ms
+26-Jun-2017 11:59:41.186 INFORMATION [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Projekte\apache-tomcat-8.5.15\webapps\Test]
+26-Jun-2017 11:59:41.200 INFORMATION [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+26-Jun-2017 11:59:41.201 INFORMATION [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Projekte\apache-tomcat-8.5.15\webapps\Test] has finished in [15] ms
+26-Jun-2017 11:59:41.203 INFORMATION [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+26-Jun-2017 11:59:41.208 INFORMATION [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+26-Jun-2017 11:59:41.209 INFORMATION [main] org.apache.catalina.startup.Catalina.start Server startup in 510 ms
+26-Jun-2017 12:00:05.231 INFORMATION [http-nio-8080-exec-7] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Ange] has started
+26-Jun-2017 12:00:05.232 INFORMATION [http-nio-8080-exec-7] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/Ange] is completed
